@@ -26,43 +26,62 @@ nav a:hover {
 /* Second same style element */
 body{
     font-family: 'Oswald', sans-serif;
-    background-color: aliceblue;
+    background-color:lightcyan;
 }
 
 /* Third same style element */
 h1 {
     text-align: center;
-    font-weight: 900;
-    font-size: 55px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
 }
 
 /* Fourth same style element */
-.subNav {
+.contact {
     list-style-type: none;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 10px 20px 10px 20px;
+    margin-left: 25em;
+    margin-right: 25em;
+    padding: 15px 20px 15px 20px;
     overflow: hidden;
     text-align: center;
-    background-color: lightsteelblue;
+    border-top: 1px;
+    border-top-color: dimgray;
+    border-top-style: solid;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: solid;
+    background-color: white;
     opacity: 0.7;
 }
 
-.subNav li{
+.contact li{
     display: inline;
-    margin: 20px;
-    padding-right: 5px;
+    margin: 10px;
+    padding-right: 20px;
+    font-weight: 700;
+    border-right: 2px;
+    border-right-color: dimgray;
+    border-right-style: solid;
 }
 
-.subNav a{
+.contact a{
     display: inline-block;
 }
+
+
 
 /* First different element on 1st pg*/
 .resumePic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10%;
+    padding: 10px;
+}
+
+.top {
+    background-color: azure;
+    padding-bottom: 10px;
 }
 
