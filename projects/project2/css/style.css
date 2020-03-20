@@ -12,7 +12,7 @@ nav li{
 }
 
 nav a{
-    display: flow-root;
+    display: inline-block;
     color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
@@ -94,6 +94,7 @@ h1 {
 div.aboutMe {
     box-sizing: border-box;
     margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
     overflow: auto;
 }
 
@@ -101,14 +102,22 @@ div.aboutMe {
     text-align: left;
     font-weight: bold;
     font-size: 45px;
+    margin-bottom: 15px;
     color: dimgray;
 }
 
 .aboutMeInfo {
     box-sizing: border-box;
-    padding: 10px 20px 10px 20px;
 }
 
+.aboutMeInfo ul {
+    overflow: hidden;
+    font-size: 25px;
+    list-style-type: square;
+    color: grey;
+}
+
+/* Fourth different element on 1st pg */
 
 /* First different element in 3rd pg */
 div.gallery {
