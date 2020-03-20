@@ -132,15 +132,22 @@ div.education {
     background-color: azure;
 }
 
+.educationInfo {
+    overflow: auto;
+    box-sizing: border-box;
+}
+
 .dot {
     height: 125px;
     width: 125px;
     border-radius: 50%;
+    margin: 20px;
     font-size: 25px;
     font-weight: bold;
     color: white;
     line-height: 110px;
-    background-color: dimgray;
+    background-color: #bbb;
+    float: left;
 }
 
 /* First different element in 3rd pg */
