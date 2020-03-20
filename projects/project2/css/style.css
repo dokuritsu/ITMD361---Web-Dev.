@@ -33,7 +33,7 @@ body{
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
     margin: 0;
     padding: 20px;
     color: dimgray;
@@ -74,14 +74,14 @@ h1 {
 /* Fifth same element style */
 .top {
     background-color: azure;
-    padding-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
 
 /* First different element on 1st pg*/
 .resumePic {
+    float: left;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15px 30px 0px 0px;
     padding: 10px;
 }
 
@@ -91,6 +91,24 @@ h1 {
 }
 
 /* Third different element on 1st pg */
+div.aboutMe {
+    box-sizing: border-box;
+    margin: 10px 5px 10px 5px;
+    overflow: auto;
+}
+
+.aboutMe h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 45px;
+    color: dimgray;
+}
+
+.aboutMeInfo {
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+}
+
 
 /* First different element in 3rd pg */
 div.gallery {
@@ -114,3 +132,6 @@ div.galleryDesc {
     text-align: center;
     background-color: white;
   }
+
+
+
