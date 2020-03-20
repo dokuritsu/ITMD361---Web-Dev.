@@ -27,6 +27,7 @@ nav a:hover {
 body{
     font-family: 'Oswald', sans-serif;
     background-color:lightcyan;
+    color: dimgray;
 }
 
 /* Third same style element */
@@ -93,9 +94,12 @@ h1 {
 /* Third different element on 1st pg */
 div.aboutMe {
     box-sizing: border-box;
-    margin: 10px 5px 10px 5px;
-    padding: 10px 5px 10px 5px;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
     overflow: auto;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: dashed;
 }
 
 .aboutMe h2 {
@@ -118,6 +122,24 @@ div.aboutMe {
 }
 
 /* Fourth different element on 1st pg */
+div.education {
+    box-sizing: border-box;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    overflow: auto;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: dashed;
+    background-color: azure;
+}
+
+.education h2 {
+    text-align: left;
+    font-weight: bolder;
+    color: dimgray;
+    font-size: 30px;
+    margin: 0;
+}
 
 /* First different element in 3rd pg */
 div.gallery {
