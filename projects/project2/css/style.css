@@ -41,8 +41,8 @@ h1 {
 /* Fourth same style element */
 .contact {
     list-style-type: none;
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 22em;
+    margin-right: 20em;
     padding: 15px 20px 15px 20px;
     overflow: hidden;
     text-align: center;
@@ -59,6 +59,8 @@ h1 {
 .contact li{
     display: inline;
     margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 20px;
     font-weight: 700;
     border-right: 2px;
