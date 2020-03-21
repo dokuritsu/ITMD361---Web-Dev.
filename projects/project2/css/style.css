@@ -203,6 +203,32 @@ div.experience {
     float: left;
 }
 
+div.projects {
+    box-sizing: border-box;
+    border-top: 1px;
+    border-top-color: dimgray;
+    border-top-style: dashed;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: dashed;
+}
+
+.projDot {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 120px;
+    background-color: #bbb;
+    float: right;
+}
+
 /* First different element in 3rd pg */
 div.gallery {
     margin: 20px;
