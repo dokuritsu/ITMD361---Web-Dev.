@@ -126,9 +126,6 @@ div.education {
     margin: 10px 15px 10px 15px;
     padding: 10px 15px 10px 15px;
     overflow: auto;
-    border-bottom: 1px;
-    border-bottom-color: dimgray;
-    border-bottom-style: dashed;
     background-color: azure;
 }
 
@@ -149,6 +146,15 @@ div.education {
     background-color: #bbb;
     float: left;
 }
+
+/* Fifth different element in 1st pg */
+div.technicalSkills {
+    box-sizing: border-box;
+    border-top: 1px;
+    border-top-color: dimgray;
+    border-top-style: dashed;
+}
+
 
 /* First different element in 3rd pg */
 div.gallery {
