@@ -134,15 +134,16 @@ div.education {
     box-sizing: border-box;
 }
 
-.dot {
+.eduDot {
     height: 125px;
     width: 125px;
     border-radius: 50%;
     margin: 20px;
     font-size: 25px;
     font-weight: bold;
+    text-align: center;
     color: white;
-    line-height: 110px;
+    line-height: 120px;
     background-color: #bbb;
     float: left;
 }
@@ -155,6 +156,19 @@ div.technicalSkills {
     border-top-style: dashed;
 }
 
+.techDot {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    background-color: #bbb;
+    float: right;
+}
 
 /* First different element in 3rd pg */
 div.gallery {
