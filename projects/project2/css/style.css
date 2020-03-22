@@ -229,6 +229,68 @@ div.projects {
     float: right;
 }
 
+/* First different element in 2nd pg */
+
+.p2 img{
+    width: 100%;
+    perspective: 1000px;
+}
+
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-card-inner h1 {
+    text-align: center;
+  }
+
+  .flip-card-inner p{
+    text-align: left;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color:white;
+    color: black;
+  }
+  
+  .flip-card-back {
+    padding: 5px;
+    background-color: white;
+    color: dimgray;
+    transform: rotateY(180deg);
+  } 
+
+.column {
+    flex: 10%;
+    margin: 10px 40px 10px 40px;
+    padding: 10px;
+}
+
+.row {
+    padding: 20px;
+    display: flex;
+}
+
+
 /* First different element in 3rd pg */
 div.gallery {
     margin: 20px;
