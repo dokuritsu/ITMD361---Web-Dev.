@@ -232,23 +232,30 @@ div.projects {
 /* First different element in 2nd pg */
 
 .p2 img{
-    width: 100%;
-    perspective: 1000px;
+    width: 30vw;
+    height: 40vw;
+    border-image: 3%;
+    
 }
 
 .flip-card {
     background-color: transparent;
+    width: 30vw;
+    height: 40vw;
+    border: 1px solid #f1f1f1;
     perspective: 1000px;
   }
   
   .flip-card-inner {
     position: relative;
+    width: 30vw;
+    height: 40vw;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
-  .flip-card-inner h1 {
+  .flip-card-inner h1, h2 {
     text-align: center;
   }
 
@@ -262,7 +269,6 @@ div.projects {
   
   .flip-card-front, .flip-card-back {
     position: absolute;
-    
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
@@ -273,21 +279,25 @@ div.projects {
   }
   
   .flip-card-back {
-    padding: 5px;
+    padding: 10px;
+    width: 30vw;
+    height: 40vw;
     background-color: white;
     color: dimgray;
     transform: rotateY(180deg);
   } 
 
 .column {
-    flex: 10%;
-    margin: 10px 40px 10px 40px;
-    padding: 10px;
+    flex: 33.33%;
+    justify-content: center;
+    padding: 20px;
 }
 
 .row {
+    margin: 30px;
     padding: 20px;
     display: flex;
+    justify-content: center;
 }
 
 
