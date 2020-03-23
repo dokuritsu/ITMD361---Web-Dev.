@@ -314,7 +314,7 @@ div.projects {
 }
 .vid h2 {
     text-align: left;
-    margin: 5px;
+    margin: 5px 10px 5px 10px;
     border-bottom: 1px;
     border-bottom-style: solid;
     border-bottom-color: #777;
