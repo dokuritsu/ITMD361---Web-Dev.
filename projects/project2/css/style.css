@@ -235,13 +235,15 @@ div.projects {
     width: 30vw;
     height: 40vw;
     border-image: 3%;
-    
 }
 
+/* Second different element in 2nd pg */
 .flip-card {
     background-color: transparent;
     width: 30vw;
     height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
   }
@@ -278,6 +280,7 @@ div.projects {
     color: black;
   }
   
+/* Third different element in 2nd pg */
   .flip-card-back {
     padding: 10px;
     width: 30vw;
@@ -287,19 +290,40 @@ div.projects {
     transform: rotateY(180deg);
   } 
 
+/* Fourth different element in 2nd pg */
 .column {
     flex: 33.33%;
-    justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .row {
-    margin: 30px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
 
+/* Fifth different element in 2nd pg */
+.vid {
+    background-color: azure;
+    margin: 20px;
+}
+
+.vid h1 {
+    padding: 5px;
+}
+.vid h2 {
+    text-align: left;
+    margin: 5px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #777;
+}
+
+.vid video {
+    width: 80%;
+    height: auto;
+}
 
 /* First different element in 3rd pg */
 div.gallery {
