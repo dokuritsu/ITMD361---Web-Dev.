@@ -345,13 +345,15 @@ div.galleryDesc {
 /* Second different element in 3rd pg */
 .p3 h2 {
     text-align: left;
-    margin: 25px 40px 10px 40px;
+    margin: 10px 40px 10px 40px;
     font-size: 40px;
 }
 
 /* Third different element in 3rd pg */
 .p3 h3{
     text-align: center;
+    margin: 0px;
+    padding: 5px;
 }
 
 .p3 p {
@@ -369,5 +371,12 @@ div.spacing {
     clear: both; 
 }  
 
+div.pogo img {
+    width: 50%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
