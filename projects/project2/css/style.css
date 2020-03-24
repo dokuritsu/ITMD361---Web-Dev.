@@ -329,17 +329,11 @@ div.projects {
 div.gallery {
     margin: 20px;
     border: 1px solid #ccc;
-    float: left;
-    width: 350px;
+    
 }
 
 div.gallery:hover {
     border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
 }
 
 div.galleryDesc {
@@ -351,10 +345,11 @@ div.galleryDesc {
 /* Second different element in 3rd pg */
 .p3 h2 {
     text-align: left;
-    margin: 25px 40px 25px 40px;
+    margin: 25px 40px 10px 40px;
     font-size: 40px;
 }
 
+/* Third different element in 3rd pg */
 .p3 h3{
     text-align: center;
 }
@@ -368,8 +363,10 @@ div.galleryDesc {
     height: auto;
 }
 
-div.reading {
-    margin: 25px 40px 25px 40px;   
+/* Fourth different element in 3rd pg */
+div.spacing {
+    margin: 0px 40px 0px 40px;
+    clear: both; 
 }  
 
 
