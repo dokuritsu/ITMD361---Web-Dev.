@@ -246,49 +246,49 @@ div.projects {
     margin-right: auto;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
-  }
+}
   
-  .flip-card-inner {
+.flip-card-inner {
     position: relative;
     width: 30vw;
     height: 40vw;
-    transition: transform 0.6s;
+    transition: transform 1.0s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
+}
 
-  .flip-card-inner h1, h2 {
+.flip-card-inner h1, h2 {
     text-align: center;
-  }
+}
 
-  .flip-card-inner p{
+.flip-card-inner p{
     text-align: left;
-  }
-  
-  .flip-card:hover .flip-card-inner {
+}
+
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
+}
+
+.flip-card-front, .flip-card-back {
     position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
+}
+
+.flip-card-front {
     background-color:white;
     color: black;
-  }
-  
+}
+
 /* Third different element in 2nd pg */
-  .flip-card-back {
+.flip-card-back {
     padding: 10px;
     width: 30vw;
     height: 40vw;
     background-color: white;
     color: dimgray;
     transform: rotateY(180deg);
-  } 
+} 
 
 /* Fourth different element in 2nd pg */
 .column {
@@ -346,7 +346,31 @@ div.galleryDesc {
     padding: 15px;
     text-align: center;
     background-color: white;
-  }
+}
+
+/* Second different element in 3rd pg */
+.p3 h2 {
+    text-align: left;
+    margin: 25px 40px 25px 40px;
+    font-size: 40px;
+}
+
+.p3 h3{
+    text-align: center;
+}
+
+.p3 p {
+    padding-left: 60px;
+}
+
+.p3 img{
+    width: 100%;
+    height: auto;
+}
+
+div.reading {
+    margin: 25px 40px 25px 40px;   
+}  
 
 
 
