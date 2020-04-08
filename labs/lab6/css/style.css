@@ -12,6 +12,24 @@
 	
 }
 
-#navbar-container {
+#main-navbar ul li {
+    float: left;
+}
 
+#main-navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+    background-color: #000;
+}
+
+#navbar-container {
+    float: left;
+    left: 50%;
+    position: relative;
+    display: block;
 }
