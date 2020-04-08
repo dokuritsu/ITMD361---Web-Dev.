@@ -33,3 +33,19 @@
     position: relative;
     display: block;
 }
+
+#sidebar {
+    position: fixed;overflow: 
+    hidden;right:0%;
+    float: left;
+    background-color: red;
+    width: 100%;height: 100%;
+    position: relative;
+    width: 20%;
+}
+
+#sidebar-container ul{
+    list-style-type: none;
+    margin: 0;text-align: center;
+    padding: 0;
+}
