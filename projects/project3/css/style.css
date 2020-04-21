@@ -1,0 +1,382 @@
+/* First same style element */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+nav li{
+    float:left;
+}
+
+nav a{
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: slategray;
+}
+
+/* Second same style element */
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color:lightcyan;
+    color: dimgray;
+}
+
+/* Third same style element */
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    margin: 0;
+    padding: 20px;
+    color: dimgray;
+}
+
+/* Fourth same style element */
+.contact {
+    list-style-type: none;
+    margin: auto;
+    padding: 15px 20px 15px 20px;
+    overflow: hidden;
+    text-align: center;
+    border-top: 1px;
+    border-top-color: dimgray;
+    border-top-style: solid;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: solid;
+    background-color: white;
+    opacity: 0.7;
+    color: rgb(71, 71, 71);
+}
+
+.contact li{
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    border-right: 2px;
+    border-right-color: dimgray;
+    border-right-style: solid;
+}
+
+.contact a{
+    display: inline-block;
+}
+
+/* Fifth same element style */
+.top {
+    background-color: azure;
+    padding: 10px 20px 10px 20px;
+}
+
+/* First different element on 1st pg*/
+.resumePic {
+    float: left;
+    display: block;
+    margin: 15px 30px 0px 0px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Second different element on 1st pg */
+.logoPic {
+    padding-top: 3px;
+}
+
+/* Third different element on 1st pg */
+div.aboutMe {
+    box-sizing: border-box;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    overflow: auto;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: dashed;
+}
+
+.aboutMe h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: dimgray;
+}
+
+.aboutMeInfo {
+    box-sizing: border-box;
+}
+
+.aboutMeInfo ul {
+    overflow: hidden;
+    font-size: 25px;
+    color: grey;
+}
+
+/* Fourth different element on 1st pg */
+div.education {
+    box-sizing: border-box;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    overflow: auto;
+    background-color: azure;
+}
+
+.educationInfo {
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.eduDot {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 120px;
+    background-color: #bbb;
+    float: left;
+}
+
+/* Fifth different element in 1st pg */
+div.technicalSkills {
+    box-sizing: border-box;
+    border-top: 1px;
+    border-top-color: dimgray;
+    border-top-style: dashed;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: dashed;
+}
+
+.techDot {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    background-color: #bbb;
+    float: right;
+}
+
+/* Other stuff */
+div.experience {
+    box-sizing: border-box;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    overflow: auto;
+    background-color: azure;
+}
+
+.experienceInfo {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.expDot {
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 120px;
+    background-color: #bbb;
+    float: left;
+}
+
+div.projects {
+    box-sizing: border-box;
+    border-top: 1px;
+    border-top-color: dimgray;
+    border-top-style: dashed;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px;
+    border-bottom-color: dimgray;
+    border-bottom-style: dashed;
+}
+
+.projDot {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 120px;
+    background-color: #bbb;
+    float: right;
+}
+
+/* First different element in 2nd pg */
+
+.p2 img{
+    width: 30vw;
+    height: 40vw;
+    border-image: 3%;
+}
+
+/* Second different element in 2nd pg */
+.flip-card {
+    background-color: transparent;
+    width: 30vw;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 30vw;
+    height: 40vw;
+    transition: transform 1.0s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card-inner h1, h2 {
+    text-align: center;
+}
+
+.flip-card-inner p{
+    text-align: left;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color:white;
+    color: black;
+}
+
+/* Third different element in 2nd pg */
+.flip-card-back {
+    padding: 10px;
+    width: 30vw;
+    height: 40vw;
+    background-color: white;
+    color: dimgray;
+    transform: rotateY(180deg);
+} 
+
+/* Fourth different element in 2nd pg */
+.column {
+    flex: 33.33%;
+    padding: 10px;
+}
+
+.row {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Fifth different element in 2nd pg */
+.vid {
+    background-color: azure;
+    margin: 20px;
+}
+
+.vid h1 {
+    padding: 5px;
+}
+.vid h2 {
+    text-align: left;
+    margin: 5px 10px 5px 10px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #777;
+}
+
+.vid video {
+    width: 80%;
+    height: auto;
+}
+
+/* First different element in 3rd pg */
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.galleryDesc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+/* Second different element in 3rd pg */
+.p3 h2 {
+    text-align: left;
+    margin: 10px 40px 10px 40px;
+    font-size: 40px;
+}
+
+/* Third different element in 3rd pg */
+.p3 h3{
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+.p3 p {
+    padding-left: 60px;
+}
+
+.p3 img{
+    width: 100%;
+    height: auto;
+}
+
+/* Fourth different element in 3rd pg */
+div.spacing {
+    margin: 0px 40px 0px 40px;
+    clear: both; 
+}  
+
+div.pogo img {
+    width: 50%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
