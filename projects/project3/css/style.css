@@ -380,6 +380,11 @@ div.pogo img {
 }
 
 #map {
-    height: 100%;
+    background-color: grey;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 850px;
+    width: 80%;
 }
 
