@@ -6,6 +6,7 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: loc,
         zoom: 12,
+        gestureHandling: 'greedy',
         styles: [
           {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
           {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
